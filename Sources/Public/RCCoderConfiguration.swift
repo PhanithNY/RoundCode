@@ -64,19 +64,19 @@ public extension RCCoderConfiguration {
     
     var topLevelBitesCount: Int {
       switch self {
-        case .v1: return 32
+        case .v1: return 128
       }
     }
     
     var middleLevelBitesCount: Int {
       switch self {
-        case .v1: return 32
+        case .v1: return 128
       }
     }
     
     var bottomLevelBitesCount: Int {
       switch self {
-        case .v1: return 32
+        case .v1: return 128
       }
     }
     
